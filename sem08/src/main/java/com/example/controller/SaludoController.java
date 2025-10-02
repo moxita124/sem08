@@ -6,6 +6,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class SaludoController{
     @GetMapping("/saludo")
     public String saludo(){
-        return "Hola desde PR";
+        return "Hola desde Puerto Rico!";
     }
 }
